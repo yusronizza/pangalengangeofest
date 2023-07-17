@@ -8,7 +8,7 @@ export default function Navbar() {
         <a href="/" className="flex items-center">
           <img src="/logo_pgf.png" className="h-8 mr-3" alt="Flowbite Logo" />
           <span className="self-center text-1xl font-semibold whitespace-nowrap">
-            Pangalengan Geotourism Festival
+            Pangalengan Geotourism
           </span>
         </a>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
@@ -19,7 +19,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/program-kerja" className={menu_classname}>
+              <a href="/wisata" className={menu_classname}>
                 Wisata
               </a>
             </li>
@@ -35,7 +35,7 @@ export default function Navbar() {
             </li>
             <li>
               <a href="/tentang-kami" className={menu_classname}>
-                About Us
+                Festival
               </a>
             </li>
             <li>

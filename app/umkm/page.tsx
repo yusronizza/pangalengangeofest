@@ -1,4 +1,10 @@
 "use client";
+import umkm from "../api/data_umkm.json";
+import Image from "next/image";
+import { useState } from "react";
+import { Fragment } from "react";
+import { Menu, Transition } from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 const namaDesas = [
   "Sukamanah",
@@ -18,58 +24,9 @@ const namaDesas = [
 
 const jenisUmkms = ["Baju", "Makanan", "Kerajinan"];
 
-import Image from "next/image";
-import { useState } from "react";
-import { Fragment } from "react";
-import { Menu, Transition } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
-
 function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
-
-const products = [
-  {
-    id: 1,
-    name: "Kerajinan Kayu",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    jenis: "Baju",
-    desa: "Sukamanah",
-  },
-  {
-    id: 2,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    jenis: "Makanan",
-    desa: "Sukaluyu",
-  },
-  {
-    id: 3,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    jenis: "$35",
-    desa: "Black",
-  },
-  {
-    id: 4,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    jenis: "$35",
-    desa: "Black",
-  },
-];
 
 export default function Umkm() {
   const [query, setQuery] = useState("");
@@ -99,22 +56,16 @@ export default function Umkm() {
     setJenis(e.target.value);
   };
 
-  const filteredData = searchFilter(products);
-  console.log(desa);
+  const filteredData = searchFilter(umkm);
+
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900 text-center">
           UMKM Pangalengan
         </h2>
-        <div className="w-full flex items-center content-center gap-x-10 ">
-          <div className="py-6 items-center">
-            <label
-              htmlFor="label_search"
-              className="mb-2 text-sm font-medium text-black sr-only"
-            >
-              Search
-            </label>
+        <div className="w-full py-6 items-center content-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-10 gap-y-6">
+          <div className="items-center">
             <div className="relative">
               <div className="absolute inset-y-0 left-0 flex items-center pl-3">
                 <svg
@@ -136,7 +87,7 @@ export default function Umkm() {
               <input
                 type="search"
                 id="search_umkm"
-                className="block p-4 pl-10 text-sm text-gray-900 rounded-full bg-gray-200"
+                className="p-4 pl-10 text-sm text-gray-900 rounded-full bg-gray-200"
                 placeholder="Cari Nama UMKM"
                 onChange={searchValue}
               />
@@ -230,32 +181,32 @@ export default function Umkm() {
         </div>
 
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-          {filteredData.map((product: any) => (
-            <div key={product.id} className="group relative">
+          {filteredData.map((umkm: any) => (
+            <div key={umkm.id} className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <Image
                   height={100}
                   width={100}
-                  src={product.imageSrc}
-                  alt={product.imageAlt}
+                  src={umkm.imageSrc}
+                  alt={umkm.imageAlt}
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                 />
               </div>
               <div className="mt-4 flex justify-between">
                 <div>
                   <h3 className="text-sm text-gray-700 font-bold">
-                    <a href={product.href}>
+                    <a href={umkm.href}>
                       <span
                         aria-hidden="true"
                         className="absolute inset-0 font-bold"
                       />
-                      {product.name}
+                      {umkm.name}
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">{product.desa}</p>
+                  <p className="mt-1 text-sm text-gray-500">{umkm.desa}</p>
                 </div>
                 <p className="text-sm font-medium text-gray-900 font-bold">
-                  {product.jenis}
+                  {umkm.jenis}
                 </p>
               </div>
             </div>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Taman Langit",
+    "href": "#",
+    "imageSrc": "taman_langit.jpg",
+    "imageAlt": "Wisata taman langit",
+    "jenis": "Pegunungan",
+    "desa": "Sukaluyu",
+    "deskripsi_singkat": "Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi ",
+    "deskripsi": "Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi ",
+    "gmaps": "112000.00.000200.1029"
+  },
+  {
+    "id": 1,
+    "name": "Sunrise Point Cukul",
+    "href": "#",
+    "imageSrc": "cukul.jpg",
+    "imageAlt": "Wisata taman langit",
+    "jenis": "Pegunungan",
+    "desa": "Sukaluyu",
+    "deskripsi_singkat": "Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi ",
+    "deskripsi": "Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi ",
+    "gmaps": "112000.00.000200.1029"
+  },
+  {
+    "id": 1,
+    "name": "Kawah Wayang",
+    "href": "#",
+    "imageSrc": "kawah_wayang.jpeg",
+    "imageAlt": "Wisata taman langit",
+    "jenis": "Pegunungan",
+    "desa": "Sukamanah",
+    "deskripsi_singkat": "Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi ",
+    "deskripsi": "Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi ",
+    "gmaps": "112000.00.000200.1029"
+  }
+]

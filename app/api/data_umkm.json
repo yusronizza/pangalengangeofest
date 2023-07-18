@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Kerajinan Kayu",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "jenis": "Baju",
+    "desa": "Sukamanah"
+  },
+  {
+    "id": 2,
+    "name": "Basic Tee",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "jenis": "Makanan",
+    "desa": "Sukaluyu"
+  },
+  {
+    "id": 3,
+    "name": "Basic Tee",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "jenis": "$35",
+    "desa": "Black"
+  },
+  {
+    "id": 4,
+    "name": "Basic Tee",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "jenis": "$35",
+    "desa": "Black"
+  },
+  {
+    "id": 5,
+    "name": "Kerajinan Kayu",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "jenis": "Baju",
+    "desa": "Sukamanah"
+  }
+]

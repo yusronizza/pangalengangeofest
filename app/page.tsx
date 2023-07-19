@@ -7,7 +7,7 @@ export default function Home() {
       <div className="w-full h-screen bg-[url('/home.jpg')] bg-cover bg-center">
         <div className="w-full h-full flex  justify-center items-center bg-orange-800/10 backdrop-brightness-[.25]">
           <span className="text-white text-4xl w-1/2 text-center">
-            Pangalengan Geotourism Festival
+            Pangalengan Geotourism
           </span>
         </div>
       </div>

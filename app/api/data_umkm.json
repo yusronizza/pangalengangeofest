@@ -1,21 +1,29 @@
 [
   {
     "id": 1,
-    "name": "Keripik Bala - Bala",
+    "name": "Keripik Bala - Bala RG",
     "href": "#",
-    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    "imageAlt": "Front of men's Basic Tee in black.",
+    "imageSrc": "/umkm/balabala.jpeg",
+    "imageAlt": "Keripik Bala - Bala RG",
     "jenis": "Makanan",
-    "desa": "Sukamanah"
+    "desa": "Sukamanah",
+    "deskripsi_singkat": "Keripik khas Bandung dari kentang pilihan terbaik",
+    "kontak" : "Bu Ros (08131313131313)",
+    "harga" : "Rp xxx",
+    "lokasi" : "maps"
   },
   {
     "id": 2,
-    "name": "Seblak Kering",
+    "name": "Camilan Romance",
     "href": "#",
-    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    "imageAlt": "Front of men's Basic Tee in black.",
+    "imageSrc": "/umkm/dedehcover.jpg",
+    "imageAlt": "Camilan Romance",
     "jenis": "Makanan",
-    "desa": "Sukamanah"
+    "desa": "Sukamanah",
+    "deskripsi_singkat": "Camilan dengan rasa khas sunda yang nikmat sebagai teman minum kopi",
+    "kontak" : "Bu Dedeh (08131313131313)",
+    "harga" : "Rp xxx",
+    "lokasi" : "maps"
   },
   {
     "id": 3,
@@ -24,7 +32,11 @@
     "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     "imageAlt": "Front of men's Basic Tee in black.",
     "jenis": "$35",
-    "desa": "Black"
+    "desa": "Black",
+    "deskripsi_singkat": "Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi ",
+    "kontak" : "Bu Ros (08131313131313)",
+    "harga" : "Rp xxx",
+    "lokasi" : "maps"
   },
   {
     "id": 4,
@@ -33,7 +45,11 @@
     "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     "imageAlt": "Front of men's Basic Tee in black.",
     "jenis": "$35",
-    "desa": "Black"
+    "desa": "Black",
+    "deskripsi_singkat": "Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi ",
+    "kontak" : "Bu Ros (08131313131313)",
+    "harga" : "Rp xxx",
+    "lokasi" : "maps"
   },
   {
     "id": 5,
@@ -42,6 +58,10 @@
     "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     "imageAlt": "Front of men's Basic Tee in black.",
     "jenis": "Baju",
-    "desa": "Sukamanah"
+    "desa": "Sukamanah",
+    "deskripsi_singkat": "Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi Deskripsi ",
+    "kontak" : "Bu Ros (08131313131313)",
+    "harga" : "Rp xxx",
+    "lokasi" : "maps"
   }
 ]

@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "name": "Kerajinan Kayu",
-    "href": "#",
-    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    "imageAlt": "Front of men's Basic Tee in black.",
-    "jenis": "Baju",
-    "desa": "Sukamanah"
-  },
-  {
-    "id": 2,
-    "name": "Basic Tee",
+    "name": "Keripik Bala - Bala",
     "href": "#",
     "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     "imageAlt": "Front of men's Basic Tee in black.",
     "jenis": "Makanan",
-    "desa": "Sukaluyu"
+    "desa": "Sukamanah"
+  },
+  {
+    "id": 2,
+    "name": "Seblak Kering",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "jenis": "Makanan",
+    "desa": "Sukamanah"
   },
   {
     "id": 3,

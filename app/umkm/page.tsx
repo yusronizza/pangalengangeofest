@@ -203,7 +203,15 @@ export default function Umkm() {
                       {umkm.name}
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">{umkm.desa}</p>
+                  <p className="mt-1 text-sm text-gray-900 text-justify">
+                  {umkm.deskripsi_singkat}<br></br>
+                  {umkm.harga}
+                  </p>
+                  <p className="mt-1 text-sm text-gray-500">
+                    {umkm.kontak} <br></br>
+                    {umkm.desa} <br></br>
+                    {umkm.lokasi}
+                    </p>
                 </div>
                 <p className="text-sm font-medium text-gray-900 font-bold">
                   {umkm.jenis}

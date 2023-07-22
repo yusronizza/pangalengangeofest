@@ -22,7 +22,7 @@ const namaDesas = [
   "Margamulya",
 ];
 
-const jenisUmkms = ["Baju", "Makanan", "Kerajinan"];
+const jenisUmkms = ["Pakaian", "Makanan", "Kerajinan"];
 
 function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
@@ -183,7 +183,7 @@ export default function Umkm() {
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {filteredData.map((umkm: any) => (
             <div key={umkm.id} className="group relative">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-60 lg:h-80 shadow group-hover:shadow-lg">
                 <Image
                   height={100}
                   width={100}
